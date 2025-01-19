@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class StyledText extends StatelessWidget {
-  final String text;
-
   const StyledText({super.key, String this.text = 'Not Set'});
+  final String text;
 
   @override
   Widget build(context) {
